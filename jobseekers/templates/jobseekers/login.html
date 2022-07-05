@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table cellpadding="10%" align="center"  cellspacing="0" width="30%">
+    <form action="" method="get" name="login form">
+        <tr>
+            <td>Username</td>
+            <td><input type="text" name="username"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="password"></td>
+        </tr>
+
+
+
+
+    </form>
+</table>
+<br><br>
+<img src="{% static 'images/_MG_8609.JPG' %}" alt="" width="500px" height="300px">
+<br>
+<a href="{% url 'jobskr:details' %}">Job Details</a>
+
+
+
+
+</body>
+</html>
