@@ -12,6 +12,6 @@ import os
 from django.core.asgi import get_asgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'jobportal.settings')
-print("HHii")
+print('ffff00000")
 
 application = get_asgi_application()
